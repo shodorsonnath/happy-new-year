@@ -97,14 +97,14 @@
 
 
 
-.image-content {
+.best-gift .image-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.best-gift-image-container {
+.best-gift .image-content .best-gift-image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
