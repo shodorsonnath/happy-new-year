@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@300;400;900&display=swap");
+
 * {
   margin: 0px;
 }
@@ -69,12 +70,10 @@
   padding-bottom: 20px;
 }
 
-
-.all-categories img{
+.all-categories img {
   width: 650px;
   padding-bottom: 20px;
 }
-
 
 .midnight-party-element-container {
   background-image: url("../images/Vectorrr.png");
@@ -89,6 +88,42 @@
   font-size: 50px;
   font-weight: 900;
   letter-spacing: 4px;
+}
+
+.best-gift-text-content{
+ margin-left: 290px;
+}
+
+
+
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-gift-image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.image{
+  width: 300px;
+  display: block;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image:hover {
+  opacity: 0.3;
 }
 
 .subscribe-newsletter {
