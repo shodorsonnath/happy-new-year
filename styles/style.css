@@ -90,12 +90,28 @@
   letter-spacing: 4px;
 }
 
-.best-gift-text-content{
- margin-left: 290px;
+.best-gift-text-content {
+  margin-left: 290px;
 }
 
+.best-gift-text-content .best-gift-text {
+  color: #f00;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
 
+.best-gift-text-content h2 {
+  color: #070211;
+  font-size: 40px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
 
+.best-gift-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+}
 
 .best-gift .image-content {
   display: flex;
@@ -108,17 +124,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px;
   position: relative;
   margin: 0 auto;
 }
 
-.best-gift-image-container .image{
+.best-gift-image-container .image {
   width: 300px;
   display: block;
   opacity: 1;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
