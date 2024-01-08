@@ -12,16 +12,18 @@
 }
 
 .banner-container {
-  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../images/Banner.png");
+  background-image: linear-gradient(180deg, #070211 10%, rgba(7, 2, 17, 0.2) 90%, rgba(7, 2, 17, 0.8) 100%), url("../images/Banner.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  width: 1320px;
   height: 600px;
   margin: 10px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
 }
 
 .banner-container h4 {
@@ -29,7 +31,6 @@
   font-size: 40px;
   font-weight: 400;
   padding-bottom: 20px;
-  z-index: 1;
 }
 
 .banner-container h2 {
@@ -37,7 +38,6 @@
   text-align: center;
   font-size: 72px;
   font-weight: 900;
-  z-index: 1;
 }
 
 .all-categories {
@@ -46,7 +46,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .all-categories h2 {
@@ -74,6 +74,7 @@
   width: 650px;
   padding-bottom: 20px;
 }
+
 
 .midnight-party-element-container {
   background-image: url("../images/Vectorrr.png");
