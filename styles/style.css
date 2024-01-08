@@ -46,7 +46,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .all-categories h2 {
@@ -143,11 +143,11 @@
   color: rgba(7, 2, 17, 0.6);
   font-size: 16px;
   font-weight: 400;
-  padding-bottom: 40px;
 }
 
 .best-offer-part .best-offer-year-content img {
   width: 100px;
+  padding-top: 40px;
 }
 
 .best-gift-text-content {
