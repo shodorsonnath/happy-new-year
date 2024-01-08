@@ -12,7 +12,13 @@
 }
 
 .banner-container {
-  background-image: linear-gradient(180deg, #070211 10%, rgba(7, 2, 17, 0.2) 90%, rgba(7, 2, 17, 0.8) 100%), url("../images/Banner.png");
+  background-image: linear-gradient(
+      180deg,
+      #070211 10%,
+      rgba(7, 2, 17, 0.2) 90%,
+      rgba(7, 2, 17, 0.8) 100%
+    ),
+    url("../images/Banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -67,28 +73,57 @@
   color: #070211;
   font-size: 48px;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .all-categories img {
   width: 650px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
 }
-
 
 .midnight-party-element-container {
-  background-image: url("../images/Vectorrr.png");
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.2) 100%),
+    url("../images/Vectorrr.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  width: 1320px;
   height: 500px;
-  margin: 100px auto;
+  margin: 10px auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 280px;
 }
 
-.midnight-party-element-container h2 {
+.midnight-party-element-container .midnight-party-text-content h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 900;
   letter-spacing: 4px;
+  padding-bottom: 20px;
+}
+
+.midnight-party-element-container .midnight-party-text-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+.btn-join-now {
+  background: #f00;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin-left: 40px;
+}
+
+.midnight-party-element-container .midnight-party-image-content img{
+  width: 250px;
 }
 
 .best-offer-part {
@@ -96,6 +131,7 @@
   justify-content: center;
   align-items: center;
   gap: 100px;
+  padding-top: 80px;
 }
 
 .best-offer-part .best-offer-text h6 {
@@ -160,7 +196,7 @@
   font-size: 20px;
   font-weight: 500;
   padding-bottom: 15px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .best-gift-text-content h2 {
